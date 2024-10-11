@@ -37,7 +37,7 @@ class Servidor {
                 }
             }
 
-            System.out.println("Demasiados clientes. Solo aceptamos 3 clientes.");
+            System.out.println("Demasiados clientes. Solo aceptamos 10 clientes.");
 
         } catch (IOException e) {
             System.err.println("Error al inicializar el servidor: " + e.getMessage());
